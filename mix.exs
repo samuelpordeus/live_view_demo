@@ -1,9 +1,9 @@
-defmodule LiveViewDemo.MixProject do
+defmodule Explosion.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :live_view_demo,
+      app: :explosion,
       version: "0.1.0",
       elixir: "~> 1.9.1",
       elixirc_paths: elixirc_paths(Mix.env()),
@@ -19,7 +19,7 @@ defmodule LiveViewDemo.MixProject do
   # Type `mix help compile.app` for more information.
   def application do
     [
-      mod: {LiveViewDemo.Application, []},
+      mod: {Explosion.Application, []},
       extra_applications: [:logger, :runtime_tools]
     ]
   end
